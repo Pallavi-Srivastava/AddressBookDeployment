@@ -21,7 +21,7 @@ import com.blz.example.services.IAddressBookService;
 
 import lombok.extern.slf4j.Slf4j;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*",allowedHeaders = "*",)
 @RestController
 @RequestMapping("/addressBook")
 @Slf4j
